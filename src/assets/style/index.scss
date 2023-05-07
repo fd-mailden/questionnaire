@@ -1,0 +1,24 @@
+@import "./base/base";
+@import-normalize;
+
+@import "./config/mixins";
+@import "./config/global_variables";
+@import "./fonts/fonts";
+
+@import "./modules/log-in";
+@import "./modules/login-bottom";
+@import "./modules/form-authorization";
+@import "./modules/questions";
+@import "./modules/feedback";
+@import "./modules/indicator";
+@import "./modules/circle-scale";
+@import "./modules/success";
+@import "./modules/verify";
+
+@import "../style/modules/questions/tags";
+@import "../style/modules/questions/multi-rating";
+@import "../style/modules/questions/scale";
+
+@import "../style/modules/star-rating";
+
+@import "../../components/UI/ProgressBar/ProgressBar.module.scss";

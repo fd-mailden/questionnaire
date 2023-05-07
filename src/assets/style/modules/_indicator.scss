@@ -1,0 +1,10 @@
+.indicator {
+  display: flex;
+  justify-content: space-between;
+  margin: 5px 0;
+  &__text {
+    font-size: 12px;
+    font-family: "Open-Sans-Light";
+    color: #000;
+  }
+}

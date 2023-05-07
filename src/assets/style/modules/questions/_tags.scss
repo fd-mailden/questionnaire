@@ -1,0 +1,19 @@
+.tags {
+  width: 100%;
+  display: block;
+  text-align: center;
+  height: 330px;
+  &__text {
+    padding: 7px 0;
+    margin: 0 auto;
+    font-size: 14px;
+    font-family: "Open-Sans-Light";
+    max-width: 204px;
+  }
+  &__buttons {
+    margin: 25px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+}

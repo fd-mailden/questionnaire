@@ -1,0 +1,10 @@
+.star {
+  display: inline-block;
+  cursor: pointer;
+  margin: 2px;
+}
+.inactive,
+.active {
+  background: transparent;
+  user-select: none;
+}

@@ -1,0 +1,20 @@
+@import '../../../assets/style/config/global_variables';
+
+.form-input {
+    color: #000;
+    margin-top: 15px;
+    padding: 13px;
+    font-family: "Open-Sans-Light";
+    font-size: 14px;
+    line-height: 19px;
+    &:focus {
+      outline: none;
+    }
+  
+    &--invalid {
+      border: 1px solid $red_color;
+    }
+    &--valid {
+      border: 1px solid $text_light_color;
+    }
+  }

@@ -1,0 +1,27 @@
+@import "../../../assets/style/config/global_variables";
+.link {
+  text-decoration: none;
+  color: $green_color;
+  font-size: 14px;
+  font-family: "Open-Sans-Bold";
+  transition: all 0.3s ease-out;
+  cursor: pointer;
+  &:after {
+    transition: all 0.3s ease-out;
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 20%;
+    margin: 0 auto;
+    width: 60%;
+    height: 2px;
+    background: $green_color;
+    opacity: 0;
+  }
+  &:hover {
+    &:after {
+      transition: all 0.3s ease-out;
+      opacity: 1;
+    }
+  }
+}

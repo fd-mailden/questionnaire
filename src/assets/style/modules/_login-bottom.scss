@@ -1,0 +1,20 @@
+.login-bottom {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    font-family: 'Open-Sans-Light';
+    a {
+      text-decoration: none;
+      color: $green_color;
+    }
+  }
+  .link-navigation {
+    text-decoration: none;
+    color: $green_color;
+    margin: 15px 0;
+    font-size: 14px;
+    font-family: 'Open-Sans-Light';
+    line-height: 19px;
+    -webkit-tap-highlight-color: transparent;
+    
+  }
